@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\01_Start">
+      <UniqueIdentifier>{b2fc87d0-d04b-4c69-995e-781d3478ed51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02_출력">
+      <UniqueIdentifier>{0461e02a-895b-426a-a57e-c4ab2f838e40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03_시작전Base">
+      <UniqueIdentifier>{c01d0335-363d-4b12-b6e3-813bc087a205}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04_함수">
+      <UniqueIdentifier>{f33e57db-53da-47b1-a417-28add251ae57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\숙제">
+      <UniqueIdentifier>{c2e3c7d7-25fb-482d-9e02-821ad68c868e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05_동적할당">
+      <UniqueIdentifier>{113a5a95-3119-4d32-bc6d-9bc5b2c9e955}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06_참조자">
+      <UniqueIdentifier>{53244f4c-44e6-49cd-89ae-24671ac9ae6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\07_구조체">
+      <UniqueIdentifier>{2cef9a59-e203-4cd1-b5a0-ba7f8e0c8039}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\문제">
+      <UniqueIdentifier>{44740113-c6b3-4abe-b6bf-4410631a5f38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\08_클래스">
+      <UniqueIdentifier>{705aee6e-e097-435c-8f61-79b7e57cfbc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\08_클래스\01_클래스">
+      <UniqueIdentifier>{b03d4e38-6175-4938-9fc0-74eb365cdf29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\문제\01_Human">
+      <UniqueIdentifier>{b9ec8294-6ae9-41d2-9fed-028e550a5638}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\08_클래스\02_생성자소멸자">
+      <UniqueIdentifier>{a7cd3cda-f9fc-4110-8138-b763cb94b7ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\08_클래스\03_접근제한자">
+      <UniqueIdentifier>{6b41f6f9-56b6-4f15-9d2a-4176bd554478}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\09_상속">
+      <UniqueIdentifier>{686f4810-d654-4f9b-8630-1df22586c9d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\09_상속\01_상속">
+      <UniqueIdentifier>{50fce976-0fc6-4f4c-9030-5b5147012a76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\숙제\02_Item">
+      <UniqueIdentifier>{16c35f10-cf4c-4f86-ba3a-0ce1189e14b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\09_상속\02_가상메서드">
+      <UniqueIdentifier>{e3472cf4-201b-4e3e-945a-b8df5af1bd2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\09_상속\02_가상메서드\Shape">
+      <UniqueIdentifier>{02100bec-a236-408d-b6e7-96ad0f5e9d98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\09_상속\03_순수가상메서드">
+      <UniqueIdentifier>{2d9e2992-63d9-4ecc-8454-ed48283d1215}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\09_상속\03_순수가상메서드\01_순수가상클래스">
+      <UniqueIdentifier>{8665300b-02fe-4352-9211-4c165db81c9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\09_상속\03_순수가상메서드\Machine">
+      <UniqueIdentifier>{4fb7533e-3588-4dc0-b9f6-1d420957c25c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\09_상속\03_순수가상메서드\Machine\Computer">
+      <UniqueIdentifier>{f3722bc1-8d51-4fa7-b9f2-6263fe8147de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\09_상속\03_순수가상메서드\Machine\MyDeskTop">
+      <UniqueIdentifier>{8c4544b5-3ca9-4637-b4c5-e7b05d21cec6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\문제\구조연습01">
+      <UniqueIdentifier>{937e59fb-309f-410c-b02f-d52ef18a056c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\문제\구조연습01\GameObject">
+      <UniqueIdentifier>{ff977bc4-906d-4043-a7a5-17c0247f07b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\문제\구조연습01\Vector">
+      <UniqueIdentifier>{07708692-f257-48d0-a90b-226707a8b247}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\문제\구조연습01\Character">
+      <UniqueIdentifier>{e2ebad98-7e5d-46fe-97a0-2f1a74b8791c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\문제\구조연습01\Monster">
+      <UniqueIdentifier>{f91cb702-8ec5-4a8a-87fa-3ced7d19d2ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\문제\구조연습01\Controller">
+      <UniqueIdentifier>{62625a1a-a708-4e3b-9696-f2b180054323}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\문제\구조연습01\Slime">
+      <UniqueIdentifier>{87046ea4-63ac-4cdd-8e3b-f27fa438869a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\10_인터페이스">
+      <UniqueIdentifier>{f9af2357-69e8-41a6-9c7e-7a76fe6e06e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\11_일반화프로그래밍">
+      <UniqueIdentifier>{b46e8557-c94a-42f8-a586-df39844a82d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\11_일반화프로그래밍\01_함수템플릿">
+      <UniqueIdentifier>{de4f9d58-af9b-4dee-8b8d-bc0ec7b78ee7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\11_일반화프로그래밍\02_클래스템플릿">
+      <UniqueIdentifier>{607ff1f8-3d8e-437a-aa41-140169636888}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\12_연산자오버로딩">
+      <UniqueIdentifier>{f9202c27-45ff-4192-bfcd-1a2a1154b41d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\13_그외나머지">
+      <UniqueIdentifier>{70d9fd81-970a-4d65-a654-441b31a96968}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="01_문제.cpp">
+      <Filter>소스 파일\01_Start</Filter>
+    </ClCompile>
+    <ClCompile Include="01_출력.cpp">
+      <Filter>소스 파일\02_출력</Filter>
+    </ClCompile>
+    <ClCompile Include="02_출력.cpp">
+      <Filter>소스 파일\02_출력</Filter>
+    </ClCompile>
+    <ClCompile Include="Bool.cpp">
+      <Filter>소스 파일\03_시작전Base</Filter>
+    </ClCompile>
+    <ClCompile Include="02_입력.cpp">
+      <Filter>소스 파일\03_시작전Base</Filter>
+    </ClCompile>
+    <ClCompile Include="03_Namespace.cpp">
+      <Filter>소스 파일\03_시작전Base</Filter>
+    </ClCompile>
+    <ClCompile Include="04_auto.cpp">
+      <Filter>소스 파일\03_시작전Base</Filter>
+    </ClCompile>
+    <ClCompile Include="05_decltype.cpp">
+      <Filter>소스 파일\03_시작전Base</Filter>
+    </ClCompile>
+    <ClCompile Include="01_함수오버로딩.cpp">
+      <Filter>소스 파일\04_함수</Filter>
+    </ClCompile>
+    <ClCompile Include="02_선택적매개변수.cpp">
+      <Filter>소스 파일\04_함수</Filter>
+    </ClCompile>
+    <ClCompile Include="01_철수야시험좀그만봐.cpp">
+      <Filter>소스 파일\숙제</Filter>
+    </ClCompile>
+    <ClCompile Include="01_철수의성적.cpp">
+      <Filter>소스 파일\문제</Filter>
+    </ClCompile>
+    <ClCompile Include="03_인라인함수.cpp">
+      <Filter>소스 파일\04_함수</Filter>
+    </ClCompile>
+    <ClCompile Include="01_동적할당.cpp">
+      <Filter>소스 파일\05_동적할당</Filter>
+    </ClCompile>
+    <ClCompile Include="01_참조자.cpp">
+      <Filter>소스 파일\06_참조자</Filter>
+    </ClCompile>
+    <ClCompile Include="02_참조자매게변수.cpp">
+      <Filter>소스 파일\06_참조자</Filter>
+    </ClCompile>
+    <ClCompile Include="01_참조자_문제.cpp">
+      <Filter>소스 파일\문제</Filter>
+    </ClCompile>
+    <ClCompile Include="02_Swap.cpp">
+      <Filter>소스 파일\문제</Filter>
+    </ClCompile>
+    <ClCompile Include="01_구조체.cpp">
+      <Filter>소스 파일\07_구조체</Filter>
+    </ClCompile>
+    <ClCompile Include="02_구조체.cpp">
+      <Filter>소스 파일\07_구조체</Filter>
+    </ClCompile>
+    <ClCompile Include="01_클래스.cpp">
+      <Filter>소스 파일\08_클래스\01_클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="02_클래스.cpp">
+      <Filter>소스 파일\08_클래스\01_클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="03_Human.cpp">
+      <Filter>소스 파일\문제</Filter>
+    </ClCompile>
+    <ClCompile Include="Human.cpp">
+      <Filter>소스 파일\문제\01_Human</Filter>
+    </ClCompile>
+    <ClCompile Include="man.cpp">
+      <Filter>소스 파일\문제\01_Human</Filter>
+    </ClCompile>
+    <ClCompile Include="01_distance.cpp">
+      <Filter>소스 파일\숙제</Filter>
+    </ClCompile>
+    <ClCompile Include="01_생성자소멸자.cpp">
+      <Filter>소스 파일\08_클래스\02_생성자소멸자</Filter>
+    </ClCompile>
+    <ClCompile Include="02_생성자와소멸자.cpp">
+      <Filter>소스 파일\08_클래스\02_생성자소멸자</Filter>
+    </ClCompile>
+    <ClCompile Include="01_접근제한자.cpp">
+      <Filter>소스 파일\08_클래스\03_접근제한자</Filter>
+    </ClCompile>
+    <ClCompile Include="02_접근제한자.cpp">
+      <Filter>소스 파일\08_클래스\03_접근제한자</Filter>
+    </ClCompile>
+    <ClCompile Include="04_AirConditioner.cpp">
+      <Filter>소스 파일\문제</Filter>
+    </ClCompile>
+    <ClCompile Include="01_Main.cpp">
+      <Filter>소스 파일\숙제\02_Item</Filter>
+    </ClCompile>
+    <ClCompile Include="01_Item.cpp">
+      <Filter>소스 파일\숙제\02_Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>소스 파일\숙제\02_Item</Filter>
+    </ClCompile>
+    <ClCompile Include="05_아이템.cpp">
+      <Filter>소스 파일\문제</Filter>
+    </ClCompile>
+    <ClCompile Include="01_상속.cpp">
+      <Filter>소스 파일\09_상속\01_상속</Filter>
+    </ClCompile>
+    <ClCompile Include="02_상속.cpp">
+      <Filter>소스 파일\09_상속\01_상속</Filter>
+    </ClCompile>
+    <ClCompile Include="03_상속생성자호출순서.cpp">
+      <Filter>소스 파일\09_상속\01_상속</Filter>
+    </ClCompile>
+    <ClCompile Include="03_Character.cpp">
+      <Filter>소스 파일\숙제</Filter>
+    </ClCompile>
+    <ClCompile Include="06_SelectCharacter.cpp">
+      <Filter>소스 파일\문제</Filter>
+    </ClCompile>
+    <ClCompile Include="01_가상메서드.cpp">
+      <Filter>소스 파일\09_상속\02_가상메서드</Filter>
+    </ClCompile>
+    <ClCompile Include="01_문제_꽃가격.cpp">
+      <Filter>소스 파일\09_상속\02_가상메서드</Filter>
+    </ClCompile>
+    <ClCompile Include="02_가상메서드오버라이딩.cpp">
+      <Filter>소스 파일\09_상속\02_가상메서드\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="Shape.cpp">
+      <Filter>소스 파일\09_상속\02_가상메서드\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="Ellipse.cpp">
+      <Filter>소스 파일\09_상속\02_가상메서드\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangle.cpp">
+      <Filter>소스 파일\09_상속\02_가상메서드\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="03_가상메서드.cpp">
+      <Filter>소스 파일\09_상속\02_가상메서드</Filter>
+    </ClCompile>
+    <ClCompile Include="01_순수가상메서드.cpp">
+      <Filter>소스 파일\09_상속\03_순수가상메서드\01_순수가상클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="Computer.cpp">
+      <Filter>소스 파일\09_상속\03_순수가상메서드\Machine\Computer</Filter>
+    </ClCompile>
+    <ClCompile Include="MyDeskTop.cpp">
+      <Filter>소스 파일\09_상속\03_순수가상메서드\Machine\MyDeskTop</Filter>
+    </ClCompile>
+    <ClCompile Include="03_main.cpp">
+      <Filter>소스 파일\09_상속\03_순수가상메서드\Machine</Filter>
+    </ClCompile>
+    <ClCompile Include="07_GameObject.cpp">
+      <Filter>소스 파일\문제</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일\문제\구조연습01</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>소스 파일\문제\구조연습01\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseController.cpp">
+      <Filter>소스 파일\문제\구조연습01\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2D.cpp">
+      <Filter>소스 파일\문제\구조연습01\Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterBase.cpp">
+      <Filter>소스 파일\문제\구조연습01\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterBase.cpp">
+      <Filter>소스 파일\문제\구조연습01\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Slime.cpp">
+      <Filter>소스 파일\문제\구조연습01\Slime</Filter>
+    </ClCompile>
+    <ClCompile Include="01_인터페이스.cpp">
+      <Filter>소스 파일\10_인터페이스</Filter>
+    </ClCompile>
+    <ClCompile Include="01_함수템플릿.cpp">
+      <Filter>소스 파일\11_일반화프로그래밍\01_함수템플릿</Filter>
+    </ClCompile>
+    <ClCompile Include="02_함수템플릿특수화.cpp">
+      <Filter>소스 파일\11_일반화프로그래밍\01_함수템플릿</Filter>
+    </ClCompile>
+    <ClCompile Include="01_클래스템플릿.cpp">
+      <Filter>소스 파일\11_일반화프로그래밍\02_클래스템플릿</Filter>
+    </ClCompile>
+    <ClCompile Include="01_연산자오버로딩.cpp">
+      <Filter>소스 파일\12_연산자오버로딩</Filter>
+    </ClCompile>
+    <ClCompile Include="01_멤버함수포인터.cpp">
+      <Filter>소스 파일\13_그외나머지</Filter>
+    </ClCompile>
+    <ClCompile Include="02_람다.cpp">
+      <Filter>소스 파일\13_그외나머지</Filter>
+    </ClCompile>
+    <ClCompile Include="08_두수사이의합.cpp">
+      <Filter>소스 파일\문제</Filter>
+    </ClCompile>
+    <ClCompile Include="09_자연수뒤집어배열로만들기.cpp">
+      <Filter>소스 파일\문제</Filter>
+    </ClCompile>
+    <ClCompile Include="10_배열의평균값.cpp">
+      <Filter>소스 파일\문제</Filter>
+    </ClCompile>
+    <ClCompile Include="11_자연수각자리의합.cpp">
+      <Filter>소스 파일\문제</Filter>
+    </ClCompile>
+    <ClCompile Include="12_최대승점구하기.cpp">
+      <Filter>소스 파일\문제</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="03_Human_h.h">
+      <Filter>소스 파일\문제</Filter>
+    </ClInclude>
+    <ClInclude Include="Human.h">
+      <Filter>소스 파일\문제\01_Human</Filter>
+    </ClInclude>
+    <ClInclude Include="01_Item.h">
+      <Filter>소스 파일\숙제\02_Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>소스 파일\숙제\02_Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.h">
+      <Filter>소스 파일\09_상속\02_가상메서드\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="Ellipse.h">
+      <Filter>소스 파일\09_상속\02_가상메서드\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle.h">
+      <Filter>소스 파일\09_상속\02_가상메서드\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="Machine.h">
+      <Filter>소스 파일\09_상속\03_순수가상메서드\Machine</Filter>
+    </ClInclude>
+    <ClInclude Include="Computer.h">
+      <Filter>소스 파일\09_상속\03_순수가상메서드\Machine\Computer</Filter>
+    </ClInclude>
+    <ClInclude Include="MyDeskTop.h">
+      <Filter>소스 파일\09_상속\03_순수가상메서드\Machine\MyDeskTop</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>소스 파일\문제\구조연습01\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D.h">
+      <Filter>소스 파일\문제\구조연습01\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseController.h">
+      <Filter>소스 파일\문제\구조연습01\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterBase.h">
+      <Filter>소스 파일\문제\구조연습01\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterBase.h">
+      <Filter>소스 파일\문제\구조연습01\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Slime.h">
+      <Filter>소스 파일\문제\구조연습01\Slime</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

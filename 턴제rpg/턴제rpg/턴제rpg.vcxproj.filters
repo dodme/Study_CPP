@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Character">
+      <UniqueIdentifier>{63444d75-624b-47e6-8dc2-85545fb1dcfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Monster">
+      <UniqueIdentifier>{b55c5b22-7f7e-459f-9a08-0eadbb5aa1b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Battle">
+      <UniqueIdentifier>{be4adc16-6ced-490d-99ec-694046086196}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Character\Warrior">
+      <UniqueIdentifier>{339788bb-0239-4697-9f3d-d16614f89574}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Character\Mage">
+      <UniqueIdentifier>{3a676a2b-7e7f-409c-9af1-38b681ad3379}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Character\Crusader">
+      <UniqueIdentifier>{68f315b1-9948-4aa4-b9ac-7c6fa4bb1961}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Util">
+      <UniqueIdentifier>{25f21af5-4fe5-40a4-9128-4692ed191544}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01_Main">
+      <UniqueIdentifier>{0b679df6-4e37-4a7d-9d19-57a93f19edd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Village">
+      <UniqueIdentifier>{fc3ab122-c774-485d-bb9a-bf816459b31a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일\01_Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>소스 파일\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>소스 파일\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterPattern.cpp">
+      <Filter>소스 파일\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="Battle.cpp">
+      <Filter>소스 파일\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="Warrior.cpp">
+      <Filter>소스 파일\Character\Warrior</Filter>
+    </ClCompile>
+    <ClCompile Include="Mage.cpp">
+      <Filter>소스 파일\Character\Mage</Filter>
+    </ClCompile>
+    <ClCompile Include="Crusader.cpp">
+      <Filter>소스 파일\Character\Crusader</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>소스 파일\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="VIllage.cpp">
+      <Filter>소스 파일\Village</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Character.h">
+      <Filter>소스 파일\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>소스 파일\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterPattern.h">
+      <Filter>소스 파일\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="Battle.h">
+      <Filter>소스 파일\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="Warrior.h">
+      <Filter>소스 파일\Character\Warrior</Filter>
+    </ClInclude>
+    <ClInclude Include="Mage.h">
+      <Filter>소스 파일\Character\Mage</Filter>
+    </ClInclude>
+    <ClInclude Include="Crusader.h">
+      <Filter>소스 파일\Character\Crusader</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>소스 파일\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Village.h">
+      <Filter>소스 파일\Village</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
